@@ -9,7 +9,8 @@ The reason I have written this interface is because I wanted to teach the facebo
 
 ## Usage:
 1. Signup for a free account on [Machinebox/Facebox](https://machinebox.io/).
-2. Run the docker-image using 
+2. Run the docker-image using
+
 `docker run -p 8080:8080 -e "MB_KEY=$MB_KEY" machinebox/facebox`
 
 Don't forget to add the MB_KEY to your path or `~/.bashrc` file on Linux. Check [documentation](https://machinebox.io/docs/setup/box-key) on how to do that. 
@@ -49,6 +50,10 @@ you need to specify the iamge/path to the image you want to check
 #### --save argument: 
 this is used to save the returned image from the facebox. If you give it `yes` it will save a copy the returned image with recognition boxes on the disk with the name `machinebox-ORIGINAL_FILENAME.jpg`. Or give it `no` and it will only display the returned image without saving it. 
 
+For example if you want to test the image ``trump1.jpg`` then you have to execute this command
+``py check.py --image trump1.jpg --save no`` I don't want to save the image, I just want to see it
+
+Note: py command is shortcut for my ``python3.6`` on `Ubuntu 18.04`
 ## License
 
 [MIT License](LICENSE)
