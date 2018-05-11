@@ -1,4 +1,6 @@
 # facebox_python
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A python interface to interact with the great [Machinebox/Facebox](https://machinebox.io/).
 At the moment I have implemented only two endpoints:
     
