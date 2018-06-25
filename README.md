@@ -5,8 +5,8 @@
 A python interface to interact with the great [Machinebox/Facebox](https://machinebox.io/).
 At the moment I have implemented only two endpoints:
     
-    1. `facebox/teach`
-    2. `facebox/check`
+    1. facebox/teach
+    2. facebox/check
 
 The reason I have written this interface is because I wanted to teach the facebox multiple people together, and because I wanted to get the result of recognition task `facebox/check` as an image with boxes around the detected faces.
 
